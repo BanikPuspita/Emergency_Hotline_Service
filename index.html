@@ -36,14 +36,14 @@
         <div
           class="flex items-center gap-1 bg-[#f5fff6] px-7 py-2 rounded-full"
         >
-          <span class="font-semibold">0</span
+          <span class="font-semibold" id="heart-icon">0</span
           ><img class="w-6 h-6" src="assets/heart.png" />
         </div>
 
         <div
           class="flex items-center gap-1 bg-[#f5fff6] px-7 py-2 rounded-full"
         >
-          <span class="font-semibold">100</span
+          <span class="font-semibold" id="money-icon">100</span
           ><img class="w-6 h-6" src="assets/coin.png" />
         </div>
 
@@ -77,8 +77,8 @@
 
     <!---------------------------- Main section ------------------------>
 
-    <section class="grid grid-cols-4 gap-4 p-4">
-      <div class="grid grid-cols-3 gap-4 col-span-3">
+    <section class="grid grid-cols-1 md:grid-cols-4 gap-4 p-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:col-span-3">
         <!-- card - 1 -->
         <div class="card bg-base-100 shadow-sm">
           <div class="card-body">
@@ -86,14 +86,14 @@
               <div class="w-10 p-2 rounded-xl bg-red-100">
                 <img class="w-9" src="assets/emergency.png" alt="" />
               </div>
-              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-heart heart-btn"></i>
             </div>
 
             <div>
               <h2 class="card-title font-bold">National Emergency Number</h2>
-              <p class="text-gray-600">National Emergency</p>
+              <p class="text-gray-600 mb-3">National Emergency</p>
               <h1 class="card-title font-bold text-2xl">999</h1>
-              <div class="badge bg-gray-200 rounded-full">All</div>
+              <div class="badge bg-gray-200 rounded-full mb-3">All</div>
             </div>
 
             <div class="justify-evenly card-actions">
@@ -104,28 +104,28 @@
               <button
                 class="btn bg-[#00a63e] text-white px-11 py-3 rounded-lg font-normal"
               >
-                <i class="fa-solid fa-phone"></i>
+                <i class="fa-solid fa-phone call-btn"></i>
                 Call
               </button>
             </div>
           </div>
         </div>
 
-        <!-- card - 1 -->
+        <!-- card - 2 -->
         <div class="card bg-base-100 shadow-sm">
           <div class="card-body">
             <div class="flex justify-between items-center">
-              <div class="w-10 p-2 rounded-xl bg-red-100">
-                <img class="w-9" src="assets/emergency.png" alt="" />
+              <div class="w-10 p-2 rounded-xl bg-blue-100">
+                <img class="w-9" src="assets/police.png" alt="" />
               </div>
-              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-heart heart-btn"></i>
             </div>
 
             <div>
-              <h2 class="card-title font-bold">National Emergency Number</h2>
-              <p class="text-gray-600">National Emergency</p>
+              <h2 class="card-title font-bold">Police Helpline Number</h2>
+              <p class="text-gray-600 mb-3">Police</p>
               <h1 class="card-title font-bold text-2xl">999</h1>
-              <div class="badge bg-gray-200 rounded-full">All</div>
+              <div class="badge bg-gray-200 rounded-full mb-3">police</div>
             </div>
 
             <div class="justify-evenly card-actions">
@@ -136,28 +136,28 @@
               <button
                 class="btn bg-[#00a63e] text-white px-11 py-3 rounded-lg font-normal"
               >
-                <i class="fa-solid fa-phone"></i>
+                <i class="fa-solid fa-phone call-btn"></i>
                 Call
               </button>
             </div>
           </div>
         </div>
 
-        <!-- card - 1 -->
+        <!-- card - 3 -->
         <div class="card bg-base-100 shadow-sm">
           <div class="card-body">
             <div class="flex justify-between items-center">
               <div class="w-10 p-2 rounded-xl bg-red-100">
-                <img class="w-9" src="assets/emergency.png" alt="" />
+                <img class="w-9" src="assets/fire-service.png" alt="" />
               </div>
-              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-heart heart-btn"></i>
             </div>
 
             <div>
-              <h2 class="card-title font-bold">National Emergency Number</h2>
-              <p class="text-gray-600">National Emergency</p>
+              <h2 class="card-title font-bold">Fire Service Number</h2>
+              <p class="text-gray-600 mb-3">Fire Service</p>
               <h1 class="card-title font-bold text-2xl">999</h1>
-              <div class="badge bg-gray-200 rounded-full">All</div>
+              <div class="badge bg-gray-200 rounded-full mb-3">Fire</div>
             </div>
 
             <div class="justify-evenly card-actions">
@@ -168,28 +168,28 @@
               <button
                 class="btn bg-[#00a63e] text-white px-11 py-3 rounded-lg font-normal"
               >
-                <i class="fa-solid fa-phone"></i>
+                <i class="fa-solid fa-phone call-btn"></i>
                 Call
               </button>
             </div>
           </div>
         </div>
 
-        <!-- card - 1 -->
+        <!-- card - 4 -->
         <div class="card bg-base-100 shadow-sm">
           <div class="card-body">
             <div class="flex justify-between items-center">
               <div class="w-10 p-2 rounded-xl bg-red-100">
-                <img class="w-9" src="assets/emergency.png" alt="" />
+                <img class="w-9" src="assets/ambulance.png" alt="" />
               </div>
-              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-heart heart-btn"></i>
             </div>
 
             <div>
-              <h2 class="card-title font-bold">National Emergency Number</h2>
-              <p class="text-gray-600">National Emergency</p>
-              <h1 class="card-title font-bold text-2xl">999</h1>
-              <div class="badge bg-gray-200 rounded-full">All</div>
+              <h2 class="card-title font-bold">Ambulance Service</h2>
+              <p class="text-gray-600 mb-3">Ambulance</p>
+              <h1 class="card-title font-bold text-2xl">1994-999999</h1>
+              <div class="badge bg-gray-200 rounded-full mb-3">Health</div>
             </div>
 
             <div class="justify-evenly card-actions">
@@ -200,28 +200,28 @@
               <button
                 class="btn bg-[#00a63e] text-white px-11 py-3 rounded-lg font-normal"
               >
-                <i class="fa-solid fa-phone"></i>
+                <i class="fa-solid fa-phone call-btn"></i>
                 Call
               </button>
             </div>
           </div>
         </div>
 
-        <!-- card - 1 -->
+        <!-- card - 5 -->
         <div class="card bg-base-100 shadow-sm">
           <div class="card-body">
             <div class="flex justify-between items-center">
               <div class="w-10 p-2 rounded-xl bg-red-100">
                 <img class="w-9" src="assets/emergency.png" alt="" />
               </div>
-              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-heart heart-btn"></i>
             </div>
 
             <div>
-              <h2 class="card-title font-bold">National Emergency Number</h2>
-              <p class="text-gray-600">National Emergency</p>
-              <h1 class="card-title font-bold text-2xl">999</h1>
-              <div class="badge bg-gray-200 rounded-full">All</div>
+              <h2 class="card-title font-bold">Women & Child Helpline</h2>
+              <p class="text-gray-600 mb-3">Women & Child Helpline</p>
+              <h1 class="card-title font-bold text-2xl">109</h1>
+              <div class="badge bg-gray-200 rounded-full mb-3">Help</div>
             </div>
 
             <div class="justify-evenly card-actions">
@@ -232,28 +232,28 @@
               <button
                 class="btn bg-[#00a63e] text-white px-11 py-3 rounded-lg font-normal"
               >
-                <i class="fa-solid fa-phone"></i>
+                <i class="fa-solid fa-phone call-btn"></i>
                 Call
               </button>
             </div>
           </div>
         </div>
 
-        <!-- card - 1 -->
+        <!-- card - 6 -->
         <div class="card bg-base-100 shadow-sm">
           <div class="card-body">
             <div class="flex justify-between items-center">
               <div class="w-10 p-2 rounded-xl bg-red-100">
                 <img class="w-9" src="assets/emergency.png" alt="" />
               </div>
-              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-heart heart-btn"></i>
             </div>
 
             <div>
-              <h2 class="card-title font-bold">National Emergency Number</h2>
-              <p class="text-gray-600">National Emergency</p>
-              <h1 class="card-title font-bold text-2xl">999</h1>
-              <div class="badge bg-gray-200 rounded-full">All</div>
+              <h2 class="card-title font-bold">Anti-Corruption Helpline</h2>
+              <p class="text-gray-600 mb-3">Anti-Corruption</p>
+              <h1 class="card-title font-bold text-2xl">106</h1>
+              <div class="badge bg-gray-200 rounded-full mb-3">Govt.</div>
             </div>
 
             <div class="justify-evenly card-actions">
@@ -264,28 +264,28 @@
               <button
                 class="btn bg-[#00a63e] text-white px-11 py-3 rounded-lg font-normal"
               >
-                <i class="fa-solid fa-phone"></i>
+                <i class="fa-solid fa-phone call-btn"></i>
                 Call
               </button>
             </div>
           </div>
         </div>
 
-        <!-- card - 1 -->
+        <!-- card - 7 -->
         <div class="card bg-base-100 shadow-sm">
           <div class="card-body">
             <div class="flex justify-between items-center">
               <div class="w-10 p-2 rounded-xl bg-red-100">
                 <img class="w-9" src="assets/emergency.png" alt="" />
               </div>
-              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-heart heart-btn"></i>
             </div>
 
             <div>
-              <h2 class="card-title font-bold">National Emergency Number</h2>
-              <p class="text-gray-600">National Emergency</p>
-              <h1 class="card-title font-bold text-2xl">999</h1>
-              <div class="badge bg-gray-200 rounded-full">All</div>
+              <h2 class="card-title font-bold">Electricity Helpline</h2>
+              <p class="text-gray-600 mb-3">Electricity Outage</p>
+              <h1 class="card-title font-bold text-2xl">16216</h1>
+              <div class="badge bg-gray-200 rounded-full mb-3">Electricity</div>
             </div>
 
             <div class="justify-evenly card-actions">
@@ -296,28 +296,28 @@
               <button
                 class="btn bg-[#00a63e] text-white px-11 py-3 rounded-lg font-normal"
               >
-                <i class="fa-solid fa-phone"></i>
+                <i class="fa-solid fa-phone call-btn"></i>
                 Call
               </button>
             </div>
           </div>
         </div>
 
-        <!-- card - 1 -->
+        <!-- card - 8 -->
         <div class="card bg-base-100 shadow-sm">
           <div class="card-body">
             <div class="flex justify-between items-center">
               <div class="w-10 p-2 rounded-xl bg-red-100">
                 <img class="w-9" src="assets/emergency.png" alt="" />
               </div>
-              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-heart heart-btn"></i>
             </div>
 
             <div>
-              <h2 class="card-title font-bold">National Emergency Number</h2>
-              <p class="text-gray-600">National Emergency</p>
-              <h1 class="card-title font-bold text-2xl">999</h1>
-              <div class="badge bg-gray-200 rounded-full">All</div>
+              <h2 class="card-title font-bold">Brac Helpline</h2>
+              <p class="text-gray-600 mb-3">Brac</p>
+              <h1 class="card-title font-bold text-2xl">16445</h1>
+              <div class="badge bg-gray-200 rounded-full mb-3">NGO</div>
             </div>
 
             <div class="justify-evenly card-actions">
@@ -328,28 +328,28 @@
               <button
                 class="btn bg-[#00a63e] text-white px-11 py-3 rounded-lg font-normal"
               >
-                <i class="fa-solid fa-phone"></i>
+                <i class="fa-solid fa-phone call-btn"></i>
                 Call
               </button>
             </div>
           </div>
         </div>
 
-        <!-- card - 1 -->
+        <!-- card - 9 -->
         <div class="card bg-base-100 shadow-sm">
           <div class="card-body">
             <div class="flex justify-between items-center">
               <div class="w-10 p-2 rounded-xl bg-red-100">
                 <img class="w-9" src="assets/emergency.png" alt="" />
               </div>
-              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-heart heart-btn"></i>
             </div>
 
             <div>
-              <h2 class="card-title font-bold">National Emergency Number</h2>
-              <p class="text-gray-600">National Emergency</p>
-              <h1 class="card-title font-bold text-2xl">999</h1>
-              <div class="badge bg-gray-200 rounded-full">All</div>
+              <h2 class="card-title font-bold">Bangladesh Railway Helpline </h2>
+              <p class="text-gray-600 mb-3">Bangladesh Railway</p>
+              <h1 class="card-title font-bold text-2xl">163</h1>
+              <div class="badge bg-gray-200 rounded-full mb-3">Travel</div>
             </div>
 
             <div class="justify-evenly card-actions">
@@ -360,7 +360,7 @@
               <button
                 class="btn bg-[#00a63e] text-white px-11 py-3 rounded-lg font-normal"
               >
-                <i class="fa-solid fa-phone"></i>
+                <i class="fa-solid fa-phone call-btn"></i>
                 Call
               </button>
             </div>
@@ -368,7 +368,8 @@
         </div>
       </div>
 
-      <div class="bg-white col-span-1 p-4 flex justify-between">
+      <!-- call history -->
+      <div class="bg-white md:col-span-1 p-4 flex justify-between">
         <div class="flex  gap-2">
           <i class="fa-regular fa-clock p-1"></i>
           <h2>Call History</h2>
@@ -378,5 +379,8 @@
         </button>
       </div>
     </section>
+
+
+    <script src="script.js"></script>
   </body>
 </html>
