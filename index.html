@@ -33,23 +33,17 @@
       </div>
 
       <div class="flex flex-wrap md:flex-nowrap items-center gap-3">
-        <div
-          class="flex items-center gap-1 bg-[#f5fff6] px-7 py-2 rounded-full"
-        >
+        <div class="flex items-center gap-1 bg-[#f5fff6] px-7 py-2 rounded-full shadow-sm">
           <span class="font-semibold" id="heart-icon">0</span
           ><img class="w-6 h-6" src="assets/heart.png" />
         </div>
 
-        <div
-          class="flex items-center gap-1 bg-[#f5fff6] px-7 py-2 rounded-full"
-        >
+        <div class="flex items-center gap-1 bg-[#f5fff6] px-7 py-2 rounded-full shadow-sm">
           <span class="font-semibold" id="money-icon">100</span
           ><img class="w-6 h-6" src="assets/coin.png" />
         </div>
 
-        <button class="btn bg-[#00a63e] text-white px-8 py-5 rounded-full">
-          Copy
-        </button>
+        <button class="btn bg-[#00a63e] text-white px-8 py-5 rounded-full"><span id="copy-count">0</span>Copy</button>
       </div>
     </section>
 
@@ -97,7 +91,7 @@
             </div>
 
             <div class="justify-evenly card-actions">
-              <button class="btn bg-white text-gray-600 px-11 py-3 rounded-lg">
+              <button class="btn bg-white text-gray-600 px-11 py-3 rounded-lg copy-btn">
                 <i class="fa-regular fa-copy"></i>
                 Copy
               </button>
@@ -129,7 +123,7 @@
             </div>
 
             <div class="justify-evenly card-actions">
-              <button class="btn bg-white text-gray-600 px-11 py-3 rounded-lg">
+              <button class="btn bg-white text-gray-600 px-11 py-3 rounded-lg copy-btn">
                 <i class="fa-regular fa-copy"></i>
                 Copy
               </button>
@@ -161,7 +155,7 @@
             </div>
 
             <div class="justify-evenly card-actions">
-              <button class="btn bg-white text-gray-600 px-11 py-3 rounded-lg">
+              <button class="btn bg-white text-gray-600 px-11 py-3 rounded-lg copy-btn">
                 <i class="fa-regular fa-copy"></i>
                 Copy
               </button>
@@ -193,7 +187,7 @@
             </div>
 
             <div class="justify-evenly card-actions">
-              <button class="btn bg-white text-gray-600 px-11 py-3 rounded-lg">
+              <button class="btn bg-white text-gray-600 px-11 py-3 rounded-lg copy-btn">
                 <i class="fa-regular fa-copy"></i>
                 Copy
               </button>
@@ -211,8 +205,8 @@
         <div class="card bg-base-100 shadow-sm">
           <div class="card-body">
             <div class="flex justify-between items-center">
-              <div class="w-10 p-2 rounded-xl bg-red-100">
-                <img class="w-9" src="assets/emergency.png" alt="" />
+              <div class="w-10 p-2 rounded-xl bg-pink-100">
+                <img class="w-9" src="assets/women and child.jpg" alt="" />
               </div>
               <i class="fa-regular fa-heart heart-btn"></i>
             </div>
@@ -225,7 +219,7 @@
             </div>
 
             <div class="justify-evenly card-actions">
-              <button class="btn bg-white text-gray-600 px-11 py-3 rounded-lg">
+              <button class="btn bg-white text-gray-600 px-11 py-3 rounded-lg copy-btn">
                 <i class="fa-regular fa-copy"></i>
                 Copy
               </button>
@@ -243,8 +237,8 @@
         <div class="card bg-base-100 shadow-sm">
           <div class="card-body">
             <div class="flex justify-between items-center">
-              <div class="w-10 p-2 rounded-xl bg-red-100">
-                <img class="w-9" src="assets/emergency.png" alt="" />
+              <div class="w-10 p-2 rounded-xl bg-blue-100">
+                <img class="w-9" src="assets/anti corruption.png" alt="" />
               </div>
               <i class="fa-regular fa-heart heart-btn"></i>
             </div>
@@ -257,7 +251,7 @@
             </div>
 
             <div class="justify-evenly card-actions">
-              <button class="btn bg-white text-gray-600 px-11 py-3 rounded-lg">
+              <button class="btn bg-white text-gray-600 px-11 py-3 rounded-lg copy-btn">
                 <i class="fa-regular fa-copy"></i>
                 Copy
               </button>
@@ -275,8 +269,8 @@
         <div class="card bg-base-100 shadow-sm">
           <div class="card-body">
             <div class="flex justify-between items-center">
-              <div class="w-10 p-2 rounded-xl bg-red-100">
-                <img class="w-9" src="assets/emergency.png" alt="" />
+              <div class="w-10 p-2 rounded-xl bg-yellow-100">
+                <img class="w-9" src="assets/electicity.png" alt="" />
               </div>
               <i class="fa-regular fa-heart heart-btn"></i>
             </div>
@@ -289,7 +283,7 @@
             </div>
 
             <div class="justify-evenly card-actions">
-              <button class="btn bg-white text-gray-600 px-11 py-3 rounded-lg">
+              <button class="btn bg-white text-gray-600 px-11 py-3 rounded-lg copy-btn">
                 <i class="fa-regular fa-copy"></i>
                 Copy
               </button>
@@ -307,8 +301,8 @@
         <div class="card bg-base-100 shadow-sm">
           <div class="card-body">
             <div class="flex justify-between items-center">
-              <div class="w-10 p-2 rounded-xl bg-red-100">
-                <img class="w-9" src="assets/emergency.png" alt="" />
+              <div class="w-10 p-2 rounded-xl bg-purple-100">
+                <img class="w-9" src="assets/brac.png" alt="" />
               </div>
               <i class="fa-regular fa-heart heart-btn"></i>
             </div>
@@ -321,7 +315,7 @@
             </div>
 
             <div class="justify-evenly card-actions">
-              <button class="btn bg-white text-gray-600 px-11 py-3 rounded-lg">
+              <button class="btn bg-white text-gray-600 px-11 py-3 rounded-lg copy-btn">
                 <i class="fa-regular fa-copy"></i>
                 Copy
               </button>
@@ -339,8 +333,8 @@
         <div class="card bg-base-100 shadow-sm">
           <div class="card-body">
             <div class="flex justify-between items-center">
-              <div class="w-10 p-2 rounded-xl bg-red-100">
-                <img class="w-9" src="assets/emergency.png" alt="" />
+              <div class="w-10 p-2 rounded-xl bg-orange-100">
+                <img class="w-9" src="assets/Bangladesh-Railway.png" alt="" />
               </div>
               <i class="fa-regular fa-heart heart-btn"></i>
             </div>
@@ -353,7 +347,7 @@
             </div>
 
             <div class="justify-evenly card-actions">
-              <button class="btn bg-white text-gray-600 px-11 py-3 rounded-lg">
+              <button class="btn bg-white text-gray-600 px-11 py-3 rounded-lg copy-btn">
                 <i class="fa-regular fa-copy"></i>
                 Copy
               </button>
