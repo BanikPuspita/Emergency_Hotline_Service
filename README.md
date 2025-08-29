@@ -28,6 +28,14 @@ Here all steps of how event bubbling works-
 * Propagation upwards - After the target element handles the event, the event then bubbles up the DOM tree.
 * Ancestor Handling - Each parent element along the way has the opportunity to handler the event if an event handler is attached to it.
 * Reaches the root - This process continues until the event reaches the root the DOM tree.
+Example: 
+<div id ="object">
+    <button>Option</button>
+</div>
+child.addEventListener('click',function(e){
+    e.stopPropagation()
+    console.log("Child Clicked")
+});
 
 
 ## 4. What is Event Delegation in JavaScript? Why is it useful?
