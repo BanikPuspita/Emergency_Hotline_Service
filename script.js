@@ -62,7 +62,9 @@ document.body.addEventListener("click", function (e) {
 });
 clearBtn.addEventListener("click", function () {
   historyList.innerHTML = "";
+
 });
+
 
 // copy button
 
