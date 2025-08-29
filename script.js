@@ -32,14 +32,14 @@ document.body.addEventListener("click", function (e) {
     let fullServiceName = card.querySelector("h2").innerText;
 
     if (coins < 20) {
-      alert("Not enough coins! You need at least 20 coins to make a call.");
+      alert("❌ Not enough coins! You need at least 20 coins to make a call.");
       return;
     }
 
     coins = coins - 20;
     moneyIcon.innerText = coins;
 
-    alert("Calling " + serviceName + " " + serviceNumber + "....");
+    alert("📞 Calling " + serviceName + " " + serviceNumber + "....");
 
     // call history function
     let now = new Date();
