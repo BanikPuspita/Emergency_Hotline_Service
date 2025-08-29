@@ -73,9 +73,6 @@ const copyButtons = document.querySelectorAll(".copy-btn");
 
 copyButtons.forEach(function (btn) {
   btn.addEventListener("click", function () {
-    let currentCount = parseInt(copyCount.textContent);
-    copyCount.textContent = currentCount + 1;
-
     let card = btn.closest(".card-body");
     let serviceNumber = card.querySelector("h1").innerText;
 
@@ -83,8 +80,12 @@ copyButtons.forEach(function (btn) {
       .writeText(serviceNumber)
       .then(function () {
         alert("Number copied - " + serviceNumber);
-      })
-      .catch(function (err) {
+
+      let currentCount = parseInt(copyCount.textContent);
+      copyCount.textContent = currentCount + 1;
+
+    })
+    .catch(function (err) {
         alert("Failed to copy: " + err);
       });
   });
